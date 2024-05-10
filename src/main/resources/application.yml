@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/formation
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
